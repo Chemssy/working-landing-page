@@ -76,7 +76,7 @@ body{
     & .btn__primary{
         color: var(--purple-900);
         background-color: var(--green);
-        border: none;
+        border: 2px solid transparent;
         padding: 0.875em 1.5em;
         font-size: 0.95em;
         &:hover{
@@ -193,7 +193,6 @@ body{
 .cta__img{
     max-width: 300px;
     width: 100%;
-    /* margin-bottom: -0.375em; */
     & .img__creator{
         min-width: 280px;
         width: 100%;
@@ -224,7 +223,7 @@ body{
         padding: 0.875em 1.25em;
         background-color: var(--green);
         color: var(--purple-900);
-        border: none;
+        border: 2px solid transparent;
         font-size: 0.95em;
         &:hover{
             border: 2px solid var(--green);
